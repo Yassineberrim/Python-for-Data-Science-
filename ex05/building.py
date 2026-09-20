@@ -37,7 +37,7 @@ def main():
     If more than one argument is given, an AssertionError is raised.
     """
     try:
-        assert len(sys.argv) <= 2, "bad argument"
+        assert len(sys.argv) <= 2, "the arguments are bad"
 
         if len(sys.argv) == 2:
             text = sys.argv[1]
